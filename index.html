@@ -9,9 +9,9 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to My Dream Vacation</h1>
+      <h1 class="h1">Welcome to My Dream Vacation</h1>
     </header>
-    <nav>
+    <nav class="nav">
       <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href="#programming">My Programming Journey</a></li>
@@ -21,29 +21,34 @@
       </ul>
     </nav>
     <section id="about">
-      <h2>About Me</h2>
+      <h2 class="h2">About Me</h2>
       <p>
         Hello, I'm Moses, and I'm passionate about programming and web
         development. Currently, I am learning HTML and CSS to enhance my skills.
       </p>
     </section>
     <section id="programming">
-      <h2>My Programming Journey</h2>
+      <h2 class="h2">My Programming Journey</h2>
       <p>
         I am currently learning Fullstack. It's an exciting journey, and I'm
         looking forward to mastering it.
       </p>
     </section>
     <section id="vacation-spots">
-      <h2>Dream Vacation Spots</h2>
+      <h2 class="h2">Dream Vacation Spots</h2>
       <p>Here are some of the places I'd love to visit on my dream vacation:</p>
       <fieldset>
-        <legend>Travel Destinations</legend>
+        <legend class="legend">Travel Destinations</legend>
         <ul>
-          <li>
+          <div class="gallery">
             <figure>
-              <img src="/vacation-page/assets/mecca.jpg" alt="Mecca" />
-              <figcaption>
+              <img
+                src="/vacation-page/assets/mecca.jpg"
+                alt="Mecca"
+                width="600"
+                height="400"
+              />
+              <figcaption class="figcaption">
                 <a href="https://www.example.com/mecca">Mecca:</a><br />
                 Mecca is the holiest city in Islam, located in Saudi Arabia. It
                 is the birthplace of the Prophet Muhammad and is home to the
@@ -53,10 +58,15 @@
                 significance for Muslims.
               </figcaption>
             </figure>
-          </li>
-          <li>
+          </div>
+          <div class="gallery">
             <figure>
-              <img src="/vacation-page/assets/india.jpg" alt="India" />
+              <img
+                src="/vacation-page/assets/india.jpg"
+                alt="India"
+                width="600"
+                height="400"
+              />
               <figcaption>
                 <a href="https://www.example.com/india">India:</a><br />
                 India is a diverse and culturally rich country located in South
@@ -65,12 +75,14 @@
                 River.
               </figcaption>
             </figure>
-          </li>
-          <li>
+          </div>
+          <div class="gallery">
             <figure>
               <img
                 src="/vacation-page/assets/united kingdom.jpg"
                 alt="United Kingdom"
+                width="600"
+                height="400"
               />
               <figcaption>
                 <a href="https://www.example.com/uk">United Kingdom:</a><br />
@@ -80,10 +92,15 @@
                 landmarks like Big Ben, and diverse culture.
               </figcaption>
             </figure>
-          </li>
-          <li>
+          </div>
+          <div class="gallery">
             <figure>
-              <img src="/vacation-page/assets/Germany.jpg" alt="Germany" />
+              <img
+                src="/vacation-page/assets/Germany.jpg"
+                alt="Germany"
+                width="600"
+                height="400"
+              />
               <figcaption>
                 <a href="https://www.example.com/germany">Germany:</a><br />
                 Germany is a European country known for its strong economy, rich
@@ -91,10 +108,15 @@
                 cities like Berlin, Munich, and Hamburg.
               </figcaption>
             </figure>
-          </li>
-          <li>
+          </div>
+          <div class="gallery">
             <figure>
-              <img src="/vacation-page/assets/china.jpg" alt="China" />
+              <img
+                src="/vacation-page/assets/china.jpg"
+                alt="China"
+                width="600"
+                height="400"
+              />
               <figcaption>
                 <a href="https://www.example.com/china">China:</a><br />
                 China is the world's most populous country and has a vast and
@@ -102,10 +124,15 @@
                 Terracotta Army, and its unique culture and cuisine.
               </figcaption>
             </figure>
-          </li>
-          <li>
+          </div>
+          <div class="gallery">
             <figure>
-              <img src="/vacation-page/assets/israel.jpg" alt="Israel" />
+              <img
+                src="/vacation-page/assets/israel.jpg"
+                alt="Israel"
+                width="600"
+                height="400"
+              />
               <figcaption>
                 <a href="https://www.example.com/israel">Israel:</a><br />
                 Israel is a Middle Eastern country with a complex history and
@@ -113,7 +140,7 @@
                 Jerusalem, a city sacred to Judaism, Christianity, and Islam.
               </figcaption>
             </figure>
-          </li>
+          </div>
           <!-- Add more destinations here -->
         </ul>
       </fieldset>
