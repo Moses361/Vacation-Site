@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+}
+
+.h1{
+    text-align: center;
+    /* display: block; */
+    /* border: 10
+    padding: 20px; */
+}
+.h2 {
+    text-align: center;}
+    /* display: block; */
+    .nav {
+        background-color: orange;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+}
+.nav li{
+
+    display: inline-block;
+    font-size: 20px;
+    
+    padding: 20px;
+    
+    /* display: inline-block;
+    font-size: 20x;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: orange;
+    /* padding: 20px; */
+    text-align: center;
+    margin: 0;
+    position: relative;
+    list-style-type: none; 
+
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+  div.gallery img {
+    width: 400%;
+    height: 600;
+  }  
+
+
+.figcaption {
+    padding: 5px;
+    text-align: center;
+  }
+  .legend{
+    text-align: center;
+    color: blue;
+  }
